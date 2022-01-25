@@ -11,13 +11,11 @@ if(commacount > 0) {
 
 const removeComma = (x) => {
   const inputtoString = x.toString()
-  return parseFloat(inputtoString.replace(/,/g, '')) 
-   
+  var nocomma = parseFloat(inputtoString.replace(/,/g, '')) 
+  return nocomma
 }
-
 const addComma = (x) => {
   return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
 }
 
-
-module.exports = {isComma, removeComma}
+module.exports = {isComma, removeComma, addComma}
