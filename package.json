@@ -1,6 +1,6 @@
 {
   "name": "no-comma",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Remove commas for string or numbers and check if the number/string contains commas",
   "main": "index.js",
   "scripts": {
