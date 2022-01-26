@@ -1,4 +1,4 @@
-﻿# no-comma
+# no-comma
 
 no-comma is a javascript library for dealing with inputted numbers that include commas. Nocomma will allow you to check if the number contains commas, and remove them. You can also add commas.
 
