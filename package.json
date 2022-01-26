@@ -1,7 +1,7 @@
 {
   "name": "no-comma",
   "version": "1.0.7",
-  "description": "Remove commas for string or numbers and check if the number/string contains commas",
+  "description": "Remove commas for string or numbers and check if the number/string contains commas. You can add commas to numbers as well",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
