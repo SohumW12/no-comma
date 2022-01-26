@@ -1,6 +1,6 @@
 {
   "name": "no-comma",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Remove commas for string or numbers and check if the number/string contains commas",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/sohum124/remove-comma/issues"
   },
-  "homepage": "https://github.com/sohum124/remove-comma#readme",
+  "homepage": "https://github.com/sohum124/no-comma",
   "dependencies": {
     "no-comma": "^1.0.1"
   }
