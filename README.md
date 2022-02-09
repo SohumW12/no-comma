@@ -17,6 +17,7 @@ const noComma = require('no-comma')
 const isComma = noComma.isComma // check if input contains commas
 const removeComma = noComma.removeComma // remove commas from string/number
 const addComma = noComma.addComma // use commas to seperate number
+const formatNumber = noComma.formatNumber // use commas to seperate number
 
 
 const number = '5,000,000'
@@ -28,6 +29,9 @@ isComma(number) // returns true
 
 removeComma(number) // returns 5000000
 addComma(noNumber) // returns 5,000,000
+
+
+formatNumber(5000000) // returns 5M (M for million)
 ```
 
 # Examples
